@@ -1,0 +1,150 @@
+#title {
+  background-color: #b22cff;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+/* Button */
+.download-bn {
+  margin: 2% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon:hover {
+  color: #d272ef;
+}
+
+.en {
+  font-size: 1.4rem;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #d272ef;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #d272ef;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+@media (max-width: 994px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+#cta {
+  background-color: #b22cff;
+  padding: 7% 15% 4%;
+  text-align: center;
+}
+
+.cta-h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 3%;
+}
+
+/* Footer */
+#footer {
+  padding: 8% 30%;
+  text-align: center;
+}
